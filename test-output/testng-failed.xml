@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Rest.API.Testing.RestAssures_APITesting.DynamicJson">
+      <class name="Rest.API.Testing.RestAssures_APITesting.JiraIssueCreator">
         <methods>
-          <include name="addBook"/>
+          <include name="createJiraBugIssue"/>
         </methods>
-      </class> <!-- Rest.API.Testing.RestAssures_APITesting.DynamicJson -->
+      </class> <!-- Rest.API.Testing.RestAssures_APITesting.JiraIssueCreator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

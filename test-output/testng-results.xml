@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T19:50:13 IST" name="Default suite" finished-at="2025-07-14T19:50:13 IST" duration-ms="178">
+  <suite started-at="2025-07-15T16:39:37 IST" name="Default suite" finished-at="2025-07-15T16:39:46 IST" duration-ms="9169">
     <groups>
     </groups>
-    <test started-at="2025-07-14T19:50:13 IST" name="Default test" finished-at="2025-07-14T19:50:13 IST" duration-ms="178">
-      <class name="Rest.API.Testing.RestAssures_APITesting.DynamicJson">
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Rest.API.Testing.RestAssures_APITesting.DynamicJson@4f83df68]" started-at="2025-07-14T19:50:13 IST" name="addBook" data-provider="BooksData" finished-at="2025-07-14T19:50:13 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.Object[][] Rest.API.Testing.RestAssures_APITesting.DynamicJson.getData() returned a null value]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] Rest.API.Testing.RestAssures_APITesting.DynamicJson.getData() returned a null value
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2025-07-15T16:39:37 IST" name="Default test" finished-at="2025-07-15T16:39:46 IST" duration-ms="9169">
+      <class name="Rest.API.Testing.RestAssures_APITesting.JiraIssueCreator">
+        <test-method signature="createJiraBugIssue()[pri:0, instance:Rest.API.Testing.RestAssures_APITesting.JiraIssueCreator@7f0eb4b4]" started-at="2025-07-15T16:39:37 IST" name="createJiraBugIssue" finished-at="2025-07-15T16:39:46 IST" duration-ms="8981" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- Rest.API.Testing.RestAssures_APITesting.DynamicJson -->
+        </test-method> <!-- createJiraBugIssue -->
+      </class> <!-- Rest.API.Testing.RestAssures_APITesting.JiraIssueCreator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
