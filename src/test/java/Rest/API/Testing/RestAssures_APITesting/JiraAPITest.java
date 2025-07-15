@@ -5,7 +5,8 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 import java.io.File;
 
-// Creating Jira ticket for bug and adding attachement directly from API call.
+// Creating Jira ticket for bug and adding attachment directly from RESTAPI call.
+// Authenticating through base authentication.
 
 public class JiraAPITest {
 
